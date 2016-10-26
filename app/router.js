@@ -7,7 +7,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('createClient');
+  this.route('createclient');
+  this.route('busqueda');
 });
 
 export default Router;
